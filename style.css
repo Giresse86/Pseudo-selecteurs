@@ -1,0 +1,47 @@
+a.yo { color: red; }
+a.fa{ color: blue;}
+a.net {color: red;}
+a.op{color: blueviolet;}
+a.sir{ color: rgb(48, 47, 47);}
+
+a.yo:hover { color: brown; text-transform: uppercase; }
+a.fa:hover{ color: rgb(5, 5, 69); text-transform: uppercase;}
+a.net:hover {color: brown;text-transform: uppercase;}
+a.op:hover {color: rgb(78, 8, 143);text-transform: uppercase;}
+a.sir:hover{ color:black; text-transform: uppercase;}
+
+a.yo::before{content:"> "}
+a.fa::before{content:"> " }
+a.net::before {content:"> "}
+a.op::before {content:"> "}
+a.sir::before{content:"> "}
+
+
+a.yo::after{content:" <";}
+a.fa::after{content:" <"; }
+a.net::after {content:" <";}
+a.op::after {content:" <";}
+a.sir::after{content:" <";}
+
+table{ 
+    width: 100%;
+}
+td, th {
+    border: 1px;
+    padding: 8px;
+    background-color: blueviolet;
+}
+tr:nth-child(even){ 
+    background-color: rgb(52, 50, 50);;
+}
+tr:nth-child(odd){
+    background-color: beige;
+}
+tr:hover{
+    color: aqua;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: brown;
+}
